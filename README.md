@@ -79,7 +79,7 @@ npm test
 ```
 
 ## Project structure 
-
+```bash 
 microservice_app/
 ├── config/
 │   └── db.js                # Database configuration and connection
@@ -107,7 +107,7 @@ microservice_app/
 ├── package.json             # Project dependencies and scripts
 ├── package-lock.json        # Lockfile for project dependencies
 └── README.md                # Project documentation
-
+```
 
 
 
