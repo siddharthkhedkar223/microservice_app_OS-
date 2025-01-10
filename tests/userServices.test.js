@@ -146,7 +146,7 @@ describe('User Services', () => {
         test('should fetch all users successfully', async () => {
             User.findAll.mockResolvedValue([mockUser]);
 
-            const result = await fetchUsers();
+            const result  = await fetchUsers();
 
             expect(User.findAll).toHaveBeenCalled();
             expect(result).toEqual([mockUser]);

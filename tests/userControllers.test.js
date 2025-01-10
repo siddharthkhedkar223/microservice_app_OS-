@@ -201,7 +201,7 @@ describe('User Controllers', () => {
         test('should fetch all users successfully', async () => {
             userService.fetchUsers.mockResolvedValue([mockUser]);
 
-            const response = await request(app).get('/api/users');
+            const response  = await request(app).get('/api/users');
 
             expect(response.status).toBe(200);
             expect(response.body).toEqual([mockUser]);
